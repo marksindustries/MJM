@@ -1,9 +1,0 @@
-langchain
-langchain-community
-chromadb
-streamlit
-streamlit_pdf_viewer
-langchain_huggingface
-dotenv
-
-
