@@ -8,7 +8,6 @@ from questionMethod import QuestionsMethods
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA, LLMChain
 from llama_parse import LlamaParse
-from langchain_community.document_loaders import UnstructuredFileLoader
 
 
 def ProcessDocuments(file, questions_list, data):
