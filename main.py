@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_pdf_viewer import pdf_viewer
+# from streamlit_pdf_viewer import pdf_viewer
 import os
 import tempfile
 from questionsList import QuestionsList
@@ -48,10 +48,10 @@ def main():
 
             st.session_state.uploaded_file = uploaded_file
 
-        view_pdf = st.button("View PDF")
+        # view_pdf = st.button("View PDF")
 
-        if view_pdf and st.session_state.uploaded_file is not None:
-            pdf_viewer(st.session_state.uploaded_file.getvalue())
+        # if view_pdf and st.session_state.uploaded_file is not None:
+            # pdf_viewer(st.session_state.uploaded_file.getvalue())
 
     tabs = st.tabs(["Employer Liability", "Worker Compensation", "Public Liability", "General Liability",
                     "Professional Liability", "Contractors All Risks Insurance"])
